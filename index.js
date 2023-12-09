@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./styles.css";
 
 import App from "./App";
+import React, { StrictMode } from "react";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
